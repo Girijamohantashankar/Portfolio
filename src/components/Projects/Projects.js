@@ -7,6 +7,8 @@ import Hrmaven from "../../Assets/Projects/Hrmaven.jpg";
 import lpu from "../../Assets/Projects/lpu.jpg";
 import arsha from "../../Assets/Projects/arsha.jpg";
 import bootstrap from "../../Assets/Projects/bootstrap.jpg";
+import shortpost from "../../Assets/Projects/shortpost.jpg";
+import interviewpreparation from "../../Assets/Projects/interview.jpg";
 
 function Projects() {
   return (
@@ -29,6 +31,32 @@ function Projects() {
               Adventure Trip is an exhilarating journey that offers thrill-seekers an unforgettable outdoor experience. Explore the beauty of nature, conquer challenging terrain, and bond with fellow adventurers. From hiking and rock climbing to kayaking and camping, this project promises a diverse range of adrenaline-pumping activities in stunning destinations. Get ready to embark on the adventure of a lifetime!"
               ghLink="https://github.com/Girijamohantashankar/Adventuretrip.git"
               demoLink="https://adventuretrip.onrender.com/"
+            />
+          </Col>
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shortpost}
+              isBlog={false}
+              title="ShortPost"
+              description="
+              Sure, here's a paragraph summarizing the short post platform project:
+**ShortPost** is a dynamic social media platform crafted with React.js for the frontend, Node.js and Express for the backend, and Firebase for hosting and user authentication. The frontend boasts a responsive user interface, allowing seamless navigation and optimal display across various devices. Key features include user authentication through Firebase, with functionalities like sign-up, login, password reset, and profile editing. The platform facilitates post creation with an intuitive form, supporting image and short video uploads. A robust feed mechanism displays posts, enabling users to interact through likes, comments, and shares. User profiles showcase personalized posts and activities, integrating a follower/following system for enhanced social engagement. The backend, powered by Node.js and Express, handles API endpoints for user authentication, post creation, and retrieval. The system supports essential interactions such as liking, commenting, and sharing posts. Together, ShortPost offers a seamless and engaging social experience reminiscent of popular platforms like Instagram."
+              // ghLink="https://github.com/Girijamohantashankar/HrMaven.git"
+              demoLink="https://shortpost.onrender.com/"
+
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={interviewpreparation}
+              isBlog={false}
+              title="Interviewpreparation"
+              description="
+              Sure, here's a paragraph summarizing the short post platform project:
+**ShortPost** is a dynamic social media platform crafted with React.js for the frontend, Node.js and Express for the backend, and Firebase for hosting and user authentication. The frontend boasts a responsive user interface, allowing seamless navigation and optimal display across various devices. Key features include user authentication through Firebase, with functionalities like sign-up, login, password reset, and profile editing. The platform facilitates post creation with an intuitive form, supporting image and short video uploads. A robust feed mechanism displays posts, enabling users to interact through likes, comments, and shares. User profiles showcase personalized posts and activities, integrating a follower/following system for enhanced social engagement. The backend, powered by Node.js and Express, handles API endpoints for user authentication, post creation, and retrieval. The system supports essential interactions such as liking, commenting, and sharing posts. Together, ShortPost offers a seamless and engaging social experience reminiscent of popular platforms like Instagram."
+              // ghLink="https://github.com/Girijamohantashankar/HrMaven.git"
+              demoLink="https://interviewpreparation.onrender.com/"
+
             />
           </Col>
 
